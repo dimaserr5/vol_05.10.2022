@@ -6,21 +6,32 @@
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Canvas>
-        <Label Content="Последние документы"/>
-        <Button Canvas.Left="134" Canvas.Top="3" Content="Открыть" />
-        <Button Canvas.Left="189" Canvas.Top="3" Content="Сохранить" HorizontalAlignment="Left" VerticalAlignment="Center" />
-        <Button Canvas.Left="256" Canvas.Top="3" Content="Закрыть" HorizontalAlignment="Left" VerticalAlignment="Center" />
-        <Button Canvas.Left="310" Canvas.Top="3" Content="Обработать" HorizontalAlignment="Left" VerticalAlignment="Center" />
-        <Button Canvas.Left="310" Canvas.Top="3" Content="О программе" HorizontalAlignment="Left" VerticalAlignment="Center" />
-        <Label Content="1.txt" HorizontalAlignment="Center" Canvas.Top="26" VerticalAlignment="Top"/>
-        <Label Content="2.txt" HorizontalAlignment="Center" Canvas.Top="52" VerticalAlignment="Top"/>
-        <Label Content="3.txt" HorizontalAlignment="Center" Canvas.Top="78" VerticalAlignment="Top"/>
-        <Label Content="4.txt" HorizontalAlignment="Center" Canvas.Top="104" VerticalAlignment="Top"/>
-        <Label Content="5.txt" HorizontalAlignment="Center" Canvas.Top="130" VerticalAlignment="Top"/>
-        <Label Content="6.txt" HorizontalAlignment="Center" Canvas.Top="156" VerticalAlignment="Top"/>
-        <Label Content="1.txt" HorizontalAlignment="Left" TextElement.FontWeight="Black" Canvas.Top="23" VerticalAlignment="Top" Canvas.Left="134"/>
-        <Label Content="2.txt" Canvas.Top="23" Canvas.Left="176" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-        <Label Content="3.txt" Canvas.Top="23" Canvas.Left="214" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-    </Canvas>
+    <Grid>
+        <Canvas>
+            <Label Content="Последние документы"/>
+            <Button Canvas.Left="134" Canvas.Top="3" Content="Открыть" />
+            <Button Canvas.Left="189" Canvas.Top="3" Content="Сохранить" HorizontalAlignment="Left" VerticalAlignment="Center" />
+            <Button Canvas.Left="256" Canvas.Top="3" Content="Закрыть" HorizontalAlignment="Left" VerticalAlignment="Center" />
+            <Button Canvas.Left="310" Canvas.Top="3" Content="Обработать" HorizontalAlignment="Left" VerticalAlignment="Center" />
+            <Button Canvas.Left="310" Canvas.Top="3" Content="О программе" HorizontalAlignment="Left" VerticalAlignment="Center" />
+            <Label Content="1.txt" HorizontalAlignment="Center" Canvas.Top="26" VerticalAlignment="Top"/>
+            <Label Content="2.txt" HorizontalAlignment="Center" Canvas.Top="52" VerticalAlignment="Top"/>
+            <Label Content="3.txt" HorizontalAlignment="Center" Canvas.Top="78" VerticalAlignment="Top"/>
+            <Label Content="4.txt" HorizontalAlignment="Center" Canvas.Top="104" VerticalAlignment="Top"/>
+            <Label Content="5.txt" HorizontalAlignment="Center" Canvas.Top="130" VerticalAlignment="Top"/>
+            <Label Content="6.txt" HorizontalAlignment="Center" Canvas.Top="156" VerticalAlignment="Top"/>
+            <Label Content="1.txt" HorizontalAlignment="Left" TextElement.FontWeight="Black" Canvas.Top="23" VerticalAlignment="Top" Canvas.Left="134"/>
+            <Label Content="2.txt" Canvas.Top="23" Canvas.Left="176" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Label Content="3.txt" Canvas.Top="23" Canvas.Left="214" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        </Canvas>
+        <WrapPanel Margin="139,54,0,0">
+            <Button Width="100" Height="100" Background="Yellow" BorderBrush="AliceBlue" Content="A" />
+            <Button Width="100" Height="100" Background="Red" BorderBrush="AliceBlue" Content="B" />
+            <Button Width="100" Height="100" Background="Green" BorderBrush="AliceBlue" Content="C" />
+            <Button Width="100" Height="100" Background="Blue" BorderBrush="AliceBlue" Content="D" />
+            <Button Width="100" Height="100" Background="Gray" BorderBrush="AliceBlue" Content="E" />
+            <Button Width="100" Height="100" Background="FloralWhite" BorderBrush="AliceBlue" Content="F" />
+        </WrapPanel>
+    </Grid>
+
 </Window>
