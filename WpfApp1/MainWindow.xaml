@@ -6,14 +6,18 @@
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <DockPanel LastChildFill="False">
-            <Label DockPanel.Dock="Top" Content="Регистрация пользователя" />
-            <Label DockPanel.Dock="Left" Content="ФИО" />
-            <TextBox DockPanel.Dock="Left" Width="200" />
-            <Label DockPanel.Dock="Right" Content="Email" />
-            <TextBox DockPanel.Dock="Right" Width="200" />
-            <Button DockPanel.Dock="Bottom" Content="Зарегистрироваться" />
-        </DockPanel>
-    </Grid>
+    <Canvas>
+        <Label Content="Последние документы"/>
+        <Button Canvas.Left="134" Canvas.Top="3" Content="Открыть" />
+        <Button Canvas.Left="189" Canvas.Top="3" Content="Сохранить" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Button Canvas.Left="256" Canvas.Top="3" Content="Закрыть" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Button Canvas.Left="310" Canvas.Top="3" Content="Обработать" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Button Canvas.Left="310" Canvas.Top="3" Content="О программе" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Label Content="1.txt" HorizontalAlignment="Center" Canvas.Top="26" VerticalAlignment="Top"/>
+        <Label Content="2.txt" HorizontalAlignment="Center" Canvas.Top="52" VerticalAlignment="Top"/>
+        <Label Content="3.txt" HorizontalAlignment="Center" Canvas.Top="78" VerticalAlignment="Top"/>
+        <Label Content="4.txt" HorizontalAlignment="Center" Canvas.Top="104" VerticalAlignment="Top"/>
+        <Label Content="5.txt" HorizontalAlignment="Center" Canvas.Top="130" VerticalAlignment="Top"/>
+        <Label Content="6.txt" HorizontalAlignment="Center" Canvas.Top="156" VerticalAlignment="Top"/>
+    </Canvas>
 </Window>
