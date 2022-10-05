@@ -19,5 +19,8 @@
         <Label Content="4.txt" HorizontalAlignment="Center" Canvas.Top="104" VerticalAlignment="Top"/>
         <Label Content="5.txt" HorizontalAlignment="Center" Canvas.Top="130" VerticalAlignment="Top"/>
         <Label Content="6.txt" HorizontalAlignment="Center" Canvas.Top="156" VerticalAlignment="Top"/>
+        <Label Content="1.txt" HorizontalAlignment="Left" TextElement.FontWeight="Black" Canvas.Top="23" VerticalAlignment="Top" Canvas.Left="134"/>
+        <Label Content="2.txt" Canvas.Top="23" Canvas.Left="176" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Label Content="3.txt" Canvas.Top="23" Canvas.Left="214" HorizontalAlignment="Center" VerticalAlignment="Top"/>
     </Canvas>
 </Window>
