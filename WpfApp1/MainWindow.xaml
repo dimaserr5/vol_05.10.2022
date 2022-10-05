@@ -7,16 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Rectangle>
-            <Rectangle.Fill>
-                <LinearGradientBrush  StartPoint="0,0.2" EndPoint="0.8,1">
-                    <GradientStop Color="LightBlue" Offset="0" />
-                    <GradientStop Color="DarkBlue" Offset="1" />
-                </LinearGradientBrush>
-            </Rectangle.Fill>
-        </Rectangle>
-        <Button x:Name="Btn1"
-HorizontalAlignment="Center" VerticalAlignment="Center" Width="150"
-Height="30" FontSize="17" Content="Обычная кнопка" Foreground="#006699" Background="#f0f0f0" BorderBrush="#303030" />
+        <Canvas>
+            <Label Canvas.Left="10" Canvas.Top="10" Content="Регистрация пользователя" />
+            <Label Canvas.Left="10" Canvas.Top="40" Content="ФИО" />
+            <Label Canvas.Left="400" Canvas.Top="61" Content="Тест" Height="135" Width="176" />
+            <TextBox Canvas.Left="70" Canvas.Top="40" Width="200" />
+            <Label Canvas.Left="10" Canvas.Top="70" Content="Email" />
+            <TextBox Canvas.Left="70" Canvas.Top="70" Width="200" />
+            <Button Canvas.Left="50" Canvas.Top="100" Content="Зарегистрироваться" />
+        </Canvas>
     </Grid>
 </Window>
