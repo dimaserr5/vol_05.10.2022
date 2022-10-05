@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Rectangle>
+            <Rectangle.Fill>
+                <LinearGradientBrush  StartPoint="0,0.2" EndPoint="0.8,1">
+                    <GradientStop Color="LightBlue" Offset="0" />
+                    <GradientStop Color="DarkBlue" Offset="1" />
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
         <Button x:Name="Btn1"
 HorizontalAlignment="Center" VerticalAlignment="Center" Width="150"
 Height="30" FontSize="17" Content="Обычная кнопка" Foreground="#006699" Background="#f0f0f0" BorderBrush="#303030" />
